@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "theme_name": "Custom Theme",
+  "repo_url": "https://github.com/ffalcon99/salla-custom-theme",
+  "support_url": "https://salla.com/",
+  "features": [
+    "component-featured-products",
+    "component-products-slider",
+    "filters"
+  ],
+  "settings": [
+    {
+      "type": "boolean",
+      "id": "header_is_sticky",
+      "label": "Sticky header on scroll",
+      "format": "switch",
+      "selected": true
+    },
+    {
+      "type": "boolean",
+      "id": "footer_is_dark",
+      "label": "Dark footer",
+      "format": "switch",
+      "selected": false
+    }
+  ]
+}

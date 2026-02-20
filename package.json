@@ -1,0 +1,16 @@
+{
+  "name": "salla-custom-theme",
+  "version": "1.0.0",
+  "description": "Custom Salla store theme",
+  "private": true,
+  "scripts": {
+    "dev": "salla theme preview",
+    "preview": "salla theme preview",
+    "list": "salla theme list",
+    "publish": "salla theme publish",
+    "login": "salla login",
+    "logout": "salla logout"
+  },
+  "keywords": ["salla", "theme", "ecommerce"],
+  "license": "UNLICENSED"
+}
