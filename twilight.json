@@ -1,4 +1,10 @@
 {
+  "name": {
+    "ar": "ثيم مخصص",
+    "en": "Custom Theme"
+  },
+  "repository": "https://github.com/ffalcon99/salla-custom-theme",
+  "author_email": "XSWORDX99@GMAIL.COM",
   "version": "1.0.0",
   "theme_name": "Custom Theme",
   "repo_url": "https://github.com/ffalcon99/salla-custom-theme",
@@ -14,6 +20,8 @@
       "id": "header_is_sticky",
       "label": "Sticky header on scroll",
       "format": "switch",
+      "required": false,
+      "value": true,
       "selected": true
     },
     {
@@ -21,6 +29,8 @@
       "id": "footer_is_dark",
       "label": "Dark footer",
       "format": "switch",
+      "required": false,
+      "value": false,
       "selected": false
     }
   ]
