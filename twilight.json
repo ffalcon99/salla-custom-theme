@@ -1,10 +1,18 @@
 {
+  "version": "1.0.0",
+  "theme_name": "Custom Theme",
+  "repo_url": "https://github.com/ffalcon99/salla-custom-theme",
+  "support_url": "https://salla.com/",
   "name": {
     "ar": "ثيم مخصص",
     "en": "Custom Theme"
   },
   "repository": "https://github.com/ffalcon99/salla-custom-theme",
   "author_email": "XSWORDX99@GMAIL.COM",
+  "description": {
+    "ar": "ثيم Salla قابل للتخصيص",
+    "en": "Customizable Salla theme"
+  },
   "features": [
     "component-featured-products",
     "component-products-slider",
@@ -15,7 +23,6 @@
       "type": "boolean",
       "id": "header_is_sticky",
       "label": "Sticky header on scroll",
-      "description": null,
       "format": "switch",
       "required": false,
       "value": true,
@@ -25,16 +32,10 @@
       "type": "boolean",
       "id": "footer_is_dark",
       "label": "Dark footer",
-      "description": null,
       "format": "switch",
       "required": false,
       "value": false,
       "selected": false
     }
-  ],
-  "support_url": "https://salla.com/",
-  "description": {
-    "ar": "ثيم Salla قابل للتخصيص",
-    "en": "Customizable Salla theme"
-  }
+  ]
 }
